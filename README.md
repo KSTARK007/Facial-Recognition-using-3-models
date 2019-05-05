@@ -23,8 +23,8 @@ IMAGES_TO_DONWLOAD = 100 #Number of images to download. MUST BE A MULTIPLE OF 50
 ```
 
 ```bash
-###Run the script to download the images. The images will be donwloaded to a folder with
-###the name 'actors' created by the script in the same directory.
+#Run the script to download the images. The images will be donwloaded to a folder with
+#the name 'actors' created by the script in the same directory.
 $ python IMDBActors.py
 ```
 #### Run FaceDetection.py to detect all the faces on the screen. Only the top corner (0, 0) to (800, 600) is detected.
