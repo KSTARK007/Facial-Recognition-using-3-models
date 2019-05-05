@@ -1,6 +1,6 @@
 # Facial Recognition
 Here we have 3 models 
-## First method is using haarCascade Method 
+## 1. First method is using haarCascade Method 
 The Haar Cascades for face detection are NOT mine and can be found in [OpenCV's GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 This is already trained model 
