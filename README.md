@@ -1,5 +1,5 @@
 # Facial Recognition
-Here we have 3 models 
+### Here we have 3 models 
 ## 1. First method is using haarCascade Method 
 The Haar Cascades for face detection are NOT mine and can be found in [OpenCV's GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
@@ -33,4 +33,33 @@ $ python IMDBActors.py
 #they have been together are listed in the terminal.
 $ python FaceDetection.py
 ```
+
+## 2. Face_Recognition
+The source code for this face detection core math model is NOT mine and can be found in [Python package ](https://github.com/ageitgey/face_recognition) by [Adam Geitgey](https://github.com/ageitgey)
+
+I am using another repo by [Hardik Vasa](https://github.com/hardikvasa) to collect data from [google images](https://github.com/hardikvasa/google-images-download)
+
+### Requirements
+    Python 3.3+ or Python 2.7+
+
+### Installation
+##### google_images_download
+```python
+pip install google_images_download
+```
+##### face_recognition
+```python
+pip install face_recognition
+```
+### How to use
+#### run .sh 
+```bash
+# First time to give it executable permissions run
+sudo chmod 777 ./run.sh
+# Every use run
+./run.sh
+```
+#### Note: It downloads 50 images of Keanu Reeves from google images and then runs it with the images which are extracted from the trailer of [John wick 3](https://www.youtube.com/watch?v=pU8-7BX9uxs&t=2s) from youtube and shows the results on the terminal 
+
+
 
